@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--Sets Character Encoding Standard To HTML5 Default-->
+<!--Sets Character Encoding Standard To HTML5 Default-->
 	<meta charset="UTF-8"> 
-	<title> Karaoke</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title> Karaoke </title>
+	<!-- Hidding Bootstrap for now
+	 --><!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+	<!--Jquery link -->	
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script> 
-  <script type="text/javascript" src="assets/javascript/game.js"></script> <!--My JavaScript-->
-	<script src="wordsearch.js"></script>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
-  
-  
+	<!--My JavaScript Files-->
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+	<script src="assets/javascript/wordsearch.js"></script>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Google Font Link -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
   
 </head>
 
@@ -18,7 +23,7 @@
 <!-- Header -->
 <header>
 
-	<navigation> Home Button Goes Here </navigation>
+	<nav> Home Button Goes Here </nav>
 	<br>
 
 	<h1>Team NaN </h1>
@@ -27,7 +32,11 @@
 
 </header>
 
-<input type="text" value="Search: by song">
+<div class="search">
+	<form class="search__form" action="">
+		<input class="search__input" name="search" type="search" placeholder="Search by song name..." />
+	</form>
+</div>
 
 <div id="results"></div>
 
