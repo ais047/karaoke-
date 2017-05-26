@@ -6,3 +6,10 @@ textsplit = textsplit.splice(1);
 var timestamps = [];
 var lyrics = [];
 console.log(textsplit);
+var testArray =[]
+for (let value of textsplit) {
+	testArray = value.split("] ")
+	timestamps.push(testArray[0])
+	lyrics.push(testArray[1])
+}
+
