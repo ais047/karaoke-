@@ -3,6 +3,13 @@ var textsplit = text.split('[');
 //first 8 are number, 9= ], 10 = " "
 textsplit = textsplit.splice(1);
 
+//-------------------------------------------------------------------
+//
+// Split a given string into lyrics and timestamps 
+//
+//-------------------------------------------------------------------
+
+
 var timestamps = [];
 var lyrics = [];
 console.log(textsplit);
