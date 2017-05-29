@@ -51,12 +51,14 @@ $.ajax({
     }
 
         $(".selectThisSong").click(function(event) {
-            var song;
-            var artist;
+            var song
+            var artist; 
+
             var passToNextFunction = new grabSongAndArtist(song, artist)
             passToNextFunction.song = $(this).attr("songName")
             passToNextFunction.artist = $(this).attr("songArtist")
             console.log(passToNextFunction)
+            return passToNextFunction
 
         })
 })
