@@ -1,4 +1,4 @@
-var searchQuery = "queen"
+/*var searchQuery = "queen"
 
 
 var spotifyURL = "https://api.spotify.com/v1/search?q=" + searchQuery + "&type=artist&limit=1"
@@ -12,7 +12,7 @@ $.ajax({
 })
 
 
-
+*/
 //search list?
 var searchfor = ["q_artist", "q_track"];
 function grabSongAndArtist(song, artist) {
