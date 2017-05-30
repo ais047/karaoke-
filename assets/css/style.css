@@ -1,1 +1,29 @@
-font-family: 'Raleway', sans-serif;
+body {
+	background-color: #37474F;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*font-family: 'Open Sans', sans-serif;*/
+.search {
+	display: flex;
+	justify-content: center;
+}
+.search__input {
+	border: 0;
+    background: transparent;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 7vw;
+    line-height: 1;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 0 0.1em;
+    margin-bottom: 50px;
+    color: #fff;
+    border-bottom: 6px solid;
+    outline: none;
+}
+

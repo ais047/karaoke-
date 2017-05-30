@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--Sets Character Encoding Standard To HTML5 Default-->
+<!--Sets Character Encoding Standard To HTML5 Default-->
 	<meta charset="UTF-8"> 
-	<title> Karaoke</title>
-<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
+	<title> Karaoke </title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script> 
 	<script type="text/javascript " src="assets/javascript/singalong.js"></script>
   <script type="text/javascript" src="assets/javascript/javascript.js"></script> <!--My JavaScript-->
@@ -15,15 +14,30 @@
 	<script src="assets/javascript/javascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
   
+	<!--Jquery link -->	
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script> 
   
+	<!--My JavaScript Files-->
+	<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+  <script type="text/javascript " src="assets/javascript/singalong.js"></script>
+	<script src="assets/javascript/wordsearch.js"></script>
   
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
+
+	<!-- Google Font Link -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+  <script type="text/javascript" src="assets/javascript/game.js"></script> <!--My JavaScript-->  
+    
 </head>
 
 <body>
 <!-- Header -->
 <header>
 
-	<navigation> Home Button Goes Here </navigation>
+	<nav> Home Button Goes Here </nav>
 	<br>
 
 	<h1>Team NaN </h1>
@@ -31,11 +45,16 @@
 	<h1> Karaoke App </h1>
 
 </header>
+  
+<div class="search">
+	<form class="search__form" action="">
+		<input class="search__input" name="search" type="search" placeholder="Search by song name..." />
+	</form>
+</div>
 
 <div>
  	<button class="testButton">test button </button>
  </div>
-
 
 <div class="field has-addons">
   <p class="control">
@@ -48,15 +67,9 @@
   </p>
 </div>
 
-
-
 <div id="results"></div>
-
-  
 	<div class="songs"></div>
-  
 
- 
 </body>
 </html>
 
