@@ -4,7 +4,9 @@
 	<!--Sets Character Encoding Standard To HTML5 Default-->
 	<meta charset="UTF-8"> 
 	<title> Karaoke</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script> 
 	<script type="text/javascript " src="assets/javascript/singalong.js"></script>
   <script type="text/javascript" src="assets/javascript/javascript.js"></script> <!--My JavaScript-->
@@ -32,7 +34,19 @@
  	<button class="testButton">test button </button>
  </div>
 
-<input type="text" value="Search: by song">
+
+<div class="field has-addons">
+  <p class="control">
+    <input class="input searchQuery" type="text" placeholder="Search for a song here...">
+  </p>
+  <p class="control">
+    <a class="button is-info submitQuery">
+      Search
+    </a>
+  </p>
+</div>
+
+
 
 <div id="results"></div>
 

@@ -17,3 +17,10 @@ $(document).on("click", ".testButton", function() {
         console.log(response)
     })
 })
+
+$.ajax({
+	url: "https://api.deezer.com/search?q=eminem",
+	method: "GET"
+}).done(function(response){
+	console.log(response)
+})
