@@ -24,11 +24,11 @@ $(document).on("click", ".testButton", function() {
         url: authorizeURL,
         method: "GET" ,
         headers: {
-            "Authorization" : "Bearer" + token
-        }
-    }).done(function(response) {
-        console.log(response)
-        $(".login").append($("<div>").html(response))
+            "Authorization" : "Bearer " + token
+        },
+        success: function(response) {
+            console.log(response)
+        }   
     })
 })
 
