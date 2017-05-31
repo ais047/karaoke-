@@ -1,7 +1,7 @@
 var searchQuery = "queen"
 
-
-var spotifyURL = "https://api.spotify.com/v1/search?q=" + searchQuery + "&type=artist&limit=1"
+/*
+var spotifyURL = "https://crossorigin.me/https://api.spotify.com/v1/search?q=" + searchQuery + "&type=artist&limit=1"
 var spotifyKey = "b133885956ff4364a68a1ca5b4870d83";
 console.log(spotifyURL)
 $.ajax({
@@ -12,7 +12,7 @@ $.ajax({
 })
 
 
-
+*/
 //search list?
 var searchfor = ["q_artist", "q_track"];
 function grabSongAndArtist(song, artist) {
